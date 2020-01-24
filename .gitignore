@@ -1,4 +1,9 @@
+# osx temp files
+.DS_Store
+
+# R Project Files
 .rstudio
 .Rproj.user
 
+# Data
 data/
