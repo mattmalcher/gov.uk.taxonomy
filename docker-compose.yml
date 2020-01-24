@@ -1,0 +1,10 @@
+rstudio:
+  container_name: rstudio-mpm
+  image: rocker/tidyverse
+  environment:
+    - PASSWORD=mitt
+  #default user is: rstudio
+  volumes:
+    - .:/home/rstudio
+  ports:
+    - 8787:8787
