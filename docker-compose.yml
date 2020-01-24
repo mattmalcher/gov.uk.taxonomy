@@ -1,10 +1,10 @@
 rstudio:
   container_name: rstudio-mpm
-  image: rocker/tidyverse
+  image: mattmalcher/gov_api_env:latest
   environment:
     - PASSWORD=mitt
   #default user is: rstudio
   volumes:
-    - .:/home/rstudio
+    - .:/home/rstudio/gov.uk.taxonomy
   ports:
     - 8787:8787
