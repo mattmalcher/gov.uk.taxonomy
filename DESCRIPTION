@@ -1,0 +1,29 @@
+Package: gov.uk.taxonomy
+Title: Tools for working with the gov.uk taxonomy.
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Matthew",
+           family = "Malcher",
+           role = c("aut", "cre"),
+           email = "matmalcher@gmail.com")
+Description: A set of functions for getting, working with, and visualising the gov.uk taxonomy.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests:
+    testthat,
+    knitr,
+    rmarkdown
+Imports:
+    tidyr (>= 1.0.0),
+    dplyr (>= 0.8.3),
+    tibble,
+    purrr,
+    jsonlite,
+    magrittr,
+    stringr,
+    urltools,
+    data.tree,
+    rlang
+RoxygenNote: 7.0.2
+VignetteBuilder: knitr
